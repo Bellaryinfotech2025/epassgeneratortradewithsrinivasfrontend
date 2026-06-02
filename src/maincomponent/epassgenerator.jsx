@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "../maincomponent/epassgenerator.css"
 
-const API_URL = "http://tradeepass.bellaryinfotech.com/api/V2.0/users/register";
+const API_URL = "https://tradeepass.bellaryinfotech.com/api/V2.0/users/register";
 
 const IconUser = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
