@@ -1,14 +1,18 @@
 import React from "react";
- 
-import EpassGenerated from "./maincomponent/epassgenerator"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import EpassGenerated from "./maincomponent/epassgenerator";
 
 function App() {
-   
 
   return (
-     <>
-<EpassGenerated/>
-     </>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/epassgenerator" element={<EpassGenerated />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
