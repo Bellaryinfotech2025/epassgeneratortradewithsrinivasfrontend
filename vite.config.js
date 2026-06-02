@@ -6,8 +6,8 @@ export default defineConfig({
   server: {
     port: 5173,
     allowedHosts: [
-      'tradewithsrinivas.bellaryinfotech.com/',
-      'tradewithsrinivas.bellaryinfotech.com/',
+      'tradewithsrinivas.bellaryinfotech.com',
+      'tradewithsrinivas.bellaryinfotech.com',
     ],
     proxy: {
       '/api': {
